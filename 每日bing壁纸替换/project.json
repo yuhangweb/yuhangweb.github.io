@@ -1,0 +1,23 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "每日自动更新桌面壁纸。Bing今日美图是 Microsoft 推出的图片服务，每天更新一张非常精美的图片。时间和鼠标效果来自Time lapse。",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.png",
+	"tags" : [ "Unspecified" ],
+	"title" : "Bingpic",
+	"type" : "web",
+	"visibility" : "public"
+}
