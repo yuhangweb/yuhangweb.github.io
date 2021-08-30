@@ -1,2 +1,0 @@
-https://api.dujin.org/bing/1920.php
-https://api.bingdou.net/pic/bing/
