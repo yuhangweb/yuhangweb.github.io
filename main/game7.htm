@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Helbling Young Readers - Henry Harris Hates Haitches</title>
+    <link href="CSS/Style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery.tools.Flashembed.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        function PositionCenter() {
+            var p = ($(window).height() - $('#divFlash').height()) / 2 + $(window).scrollTop();
+                if (p < 0) p = 0;
+                $('body').css("padding-top", p + "px");
+        };
+
+        $(function() {
+            flashembed("divFlash", "swf/game7.swf");
+            PositionCenter();
+        });
+        
+        $(window).resize(function() {
+            PositionCenter();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="divFlash">
+        <h3>To view this CD-ROM properly you must have JavaScript execution enabled in your browser.</h3>
+    </div>
+</body>
+</html>
